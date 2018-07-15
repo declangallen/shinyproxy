@@ -19,7 +19,7 @@ shiny:
     # Docker configuration
     docker:
       cert-path: /home/none
-      url: http://localhost:2375
+      url: http://localhost:8080
       port-range-start: 20000
   apps:
   - name: 01_hello
